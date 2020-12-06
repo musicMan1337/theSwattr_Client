@@ -1,0 +1,32 @@
+@import 'src/styles/variables/colors.scss';
+
+.dash-header {
+  background-color: $dark;
+  width: 100%;
+  font-family: 'Andale Mono', sans-serif;
+}
+
+.logo-container {
+  margin: 30px 0;
+  max-width: 300px;
+}
+
+.nav-links {
+  flex-direction: row;
+  justify-content: center;
+  color: $accent;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: 'Andale Mono', sans-serif;
+}
+.nav-links a{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.nav-links span{
+  margin-right: 5px;
+}
+
+.nav-links a:hover{
+  color:#BABABA;
+}

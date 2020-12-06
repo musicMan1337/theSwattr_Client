@@ -1,0 +1,65 @@
+@import 'src/styles/variables/colors.scss';
+
+.add-bug-form {
+  background-color: $dark;
+  margin: 0 15px;
+  border-radius: 20px;
+  color: $accent;
+  padding: 20px;
+  width: 80%;
+
+  > .app-selector {
+    margin: 20px 0;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  > * {
+    font-family: 'Andale Mono', sans-serif;
+
+    > * {
+      width: 100%;
+      margin: 10px 0;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .add-bug-submit {
+      border: none;
+      outline: none;
+      background-color: $accent;
+      margin-bottom: 20px;
+      width: 50%;
+    }
+  }
+
+  > .form-footer {
+    width: 100%;
+  }
+}
+
+.bug-name-add-bug-label,
+.description-add-bug-label {
+  width: 90%;
+}
+
+.add-bug-container {
+  width: 100%;
+}
+
+.go-back-button {
+  width: 50%;
+  margin: 10px 0;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: $accent;
+}
+
+.go-back-button:hover, .add-bug-submit:hover {
+  background-color: #BABABA;;
+}

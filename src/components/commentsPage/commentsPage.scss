@@ -1,0 +1,104 @@
+@import 'src/styles/variables/colors.scss';
+
+.comments-container {
+  width: 100%;
+}
+
+.comments {
+  width: 100%;
+}
+
+.comment-item {
+  background-color: $accent;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.auth-and-comm {
+  width: 100%;
+  align-items: flex-start;
+}
+
+.comment-content {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.comment-time {
+  width: 100%;
+  align-items: flex-end;
+  color: $bg;
+}
+
+.new-comment-form {
+  background-color: $dark;
+  margin: 0 15px;
+  border-radius: 20px;
+  color: $accent;
+  padding: 20px;
+  width: 80%;
+
+  > * {
+    font-family: 'Andale Mono', sans-serif;
+
+    > * {
+      width: 100%;
+      margin: 10px 0;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .welcome {
+      font-size: 1.17em;
+    }
+
+    .new-comment-submit {
+      border: none;
+      outline: none;
+      background-color: $accent;
+      margin-bottom: 20px;
+      width: 50%;
+    }
+  }
+
+  > .form-footer {
+    width: 100%;
+  }
+}
+
+.new-comment-label {
+  width: 100%;
+}
+
+.comment-input {
+  width: 90%;
+  margin: 10px 0;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.edit-button-holder {
+  width: 100%;
+}
+
+.edit-button {
+  border: none;
+  outline: none;
+  background-color: $dark;
+  color: $accent;
+  margin-bottom: 20px;
+  width: 50%;
+  margin: 10px 0;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.edit-button:hover,
+.new-comment-submit:hover {
+  background-color: #bababa;
+}

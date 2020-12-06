@@ -1,0 +1,32 @@
+@import 'src/styles/variables/colors.scss';
+
+.main-container {
+  width: 100%;
+}
+
+.bug-list {
+  width: 100%;
+}
+
+.add-button,
+.toggle-completed-bugs {
+  width: 50%;
+  margin: 10px 0;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Andale Mono', sans-serif;
+}
+
+.add-button,
+.toggle-completed-bugs {
+  border: none;
+  outline: none;
+  background-color: #00a651;
+}
+.add-button:hover,
+.toggle-completed-bugs:hover{
+  background-color:#BABABA;
+}
+.add-button {
+  margin-top: 20px;
+}

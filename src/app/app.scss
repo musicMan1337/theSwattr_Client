@@ -1,0 +1,13 @@
+@import 'src/styles/variables/colors.scss';
+
+#root {
+  width: 100%;
+}
+
+body {
+  background-color: $bg;
+}
+
+.app-container {
+  width: 100%;
+}

@@ -1,0 +1,8 @@
+@import 'src/styles/variables/colors.scss';
+
+.welcome {
+  margin: 20px;
+  text-align: center;
+  color: $accent;
+  font-family: 'Andale Mono', sans-serif;
+}

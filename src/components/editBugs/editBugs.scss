@@ -1,0 +1,71 @@
+@import 'src/styles/variables/colors.scss';
+
+.detail-list {
+  width: 100%;
+}
+
+.current-item {
+  background-color: $light;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.detail {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.edit-bug-form {
+  background-color: $dark;
+  margin: 0 15px;
+  border-radius: 20px;
+  color: $accent;
+  padding: 20px;
+  width: 80%;
+
+  > .selector {
+    margin: 20px 0;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  > label {
+    color: $accent;
+    width: 100%;
+  }
+
+  > * {
+    font-family: 'Andale Mono', sans-serif;
+
+    > * {
+      width: 90%;
+      margin: 10px 0;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .edit-submit-button {
+      border: none;
+      outline: none;
+      background-color: $accent;
+      margin-bottom: 20px;
+      width: 50%;
+    }
+    .edit-submit-button:hover{
+      background-color:#BABABA
+    }
+  }
+
+  > .form-footer {
+    width: 100%;
+  }
+}
+
+.text-container {
+  width: 80%;
+}

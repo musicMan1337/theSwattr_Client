@@ -1,0 +1,39 @@
+@import 'src/styles/variables/colors.scss';
+
+.login-form {
+  background-color: $dark;
+  margin: 0 15px;
+  border-radius: 20px;
+  color: $accent;
+  padding: 20px;
+  width: 90%;
+
+  > * {
+    font-family: 'Andale Mono', sans-serif;
+
+    > * {
+      width: 90%;
+      margin: 10px 0;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .submit-button {
+      border: none;
+      outline: none;
+      background-color: $accent;
+    }
+
+    .submit-button:hover {
+      background-color: #bababa;
+    }
+
+    .link-to-register {
+      text-align: center;
+    }
+    .link-to-register:hover {
+      color: #bababa;
+    }
+  }
+}

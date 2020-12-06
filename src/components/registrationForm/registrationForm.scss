@@ -1,0 +1,38 @@
+@import 'src/styles/variables/colors.scss';
+
+.register-form {
+  background-color: $dark;
+  margin: 20px 15px;
+  border-radius: 20px;
+  color: $accent;
+  padding: 20px;
+  width: 90%;
+
+  > * {
+    font-family: 'Andale Mono', sans-serif;
+
+    > * {
+      width: 90%;
+      margin: 10px 0;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .register-button {
+      border: none;
+      outline: none;
+      background-color: $accent;
+    }
+
+    .link-to-login {
+      text-align: center;
+    }
+  }
+  .register-button:hover{
+    background-color:#BABABA;
+  }
+  .link-to-login:hover{
+    color:#BABABA;
+  }
+}
